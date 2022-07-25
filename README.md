@@ -1,4 +1,4 @@
-Vimux plugin for running nose test. Similar to [vimux-ruby-test](https://github.com/pgr0ss/vimux-ruby-test)
+Vimux plugin for running pytest tests. See [vimux-nose-test](https://github.com/pitluga/vimux-nose-test)
 
 ## Requirements
 
@@ -11,10 +11,10 @@ It's pathogen compliant, so just drop in your bundle directory
 
 ## Commands
 
-- RunNoseTest - runs all the nose tests
-- RunNoseTestBuffer - runs all the nose tests in the current file
-- RunNoseTestFocused - runs the current test under the cursor
+- RunPytest - runs all the pytests
+- RunPytestBuffer - runs all the pytests in the current file
+- RunPytestFocused - runs the current test under the cursor
 
 ## Configuration
 
-- NoseVirtualenv - the path to your virtualenv activate file e.g. ```.env/bin/actviate```
+- PytestVirtualenv - the path to your virtualenv activate file e.g. ```.env/bin/actviate```
