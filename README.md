@@ -17,4 +17,4 @@ It's pathogen compliant, so just drop in your bundle directory
 
 ## Configuration
 
-- PytestVirtualenv - the path to your virtualenv activate file e.g. ```.env/bin/actviate```
+- PytestVirtualenv - the path to your virtualenv activate file e.g. ```.env/bin/activate```
